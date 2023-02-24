@@ -19,7 +19,7 @@
         <a href="https://paypal.me/z4xi" class="social"><p transition:fly="{{ y: 1000, duration: 1475 }}" id="paypal" class="fab fa-paypal text-gray-500"></p></a>
       </span>
         <h1 transition:fly="{{ y: 1000, duration: 1500 }}" on:introstart="{() => status = 'intro started'}" on:outrostart="{() => status = 'outro started'}" on:introend="{() => status = 'intro ended'}" on:outroend="{() => status = 'outro ended'}">
-        Hey, I'm <span style="color:#b6abff;">z4xi</span>!
+        z4xi
       </h1>
       <p transition:fly="{{ y: 1000, duration: 1850 }}" on:introstart="{() => status = 'intro started'}" on:outrostart="{() => status = 'outro started'}" on:introend="{() => status = 'intro ended'}" on:outroend="{() => status = 'outro ended'}">
         professional <span style="color:#b6abff;">zestfest</span>
