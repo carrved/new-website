@@ -22,7 +22,7 @@
         Hey, I'm <span style="color:#b6abff;">z4xi</span>!
       </h1>
       <p transition:fly="{{ y: 1000, duration: 1850 }}" on:introstart="{() => status = 'intro started'}" on:outrostart="{() => status = 'outro started'}" on:introend="{() => status = 'intro ended'}" on:outroend="{() => status = 'outro ended'}">
-        </span>professional <span style="color:#b6abff;">zestfest</span>
+        professional <span style="color:#b6abff;">zestfest</span>
       </p>
       <img src="https://discord.c99.nl/widget/theme-4/320002284186763264.png" class="discord-thingy" transition:fly="{{ y: 1000, duration: 2500 }}" on:introstart="{() => status = 'intro started'}" on:outrostart="{() => status = 'outro started'}" on:introend="{() => status = 'intro ended'}" on:outroend="{() => status = 'outro ended'}" />  
     </div>
