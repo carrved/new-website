@@ -14,17 +14,17 @@
   <main>
     <div id="container">
       <span style="font-size: 18px;">
-        <a href='https://discord.com/users/320002284186763264' class="social"><p transition:fly="{{ y: 1000, duration: 1425 }}" id="discord" class="fab fa-discord mr-3 text-gray-500"></p></a>
-        <a href="https://github.com/z4xi" class="social"><p transition:fly="{{ y: 1000, duration: 1450 }}" id="github" class="fab fa-github mr-3 text-gray-500"></p></a>
-        <a href="https://paypal.me/z4xi" class="social"><p transition:fly="{{ y: 1000, duration: 1475 }}" id="paypal" class="fab fa-paypal text-gray-500"></p></a>
+        <a href='https://discord.com/users/320002284186763264' class="social"><p id="discord" class="fab fa-discord mr-3 text-gray-500"></p></a>
+        <a href="https://github.com/z4xi" class="social"><p id="github" class="fab fa-github mr-3 text-gray-500"></p></a>
+        <a href="https://paypal.me/z4xi" class="social"><p id="paypal" class="fab fa-paypal text-gray-500"></p></a>
       </span>
-        <h1 transition:fly="{{ y: 1000, duration: 1500 }}" on:introstart="{() => status = 'intro started'}" on:outrostart="{() => status = 'outro started'}" on:introend="{() => status = 'intro ended'}" on:outroend="{() => status = 'outro ended'}">
+        <h1>
         z4xi
       </h1>
-      <p transition:fly="{{ y: 1000, duration: 1850 }}" on:introstart="{() => status = 'intro started'}" on:outrostart="{() => status = 'outro started'}" on:introend="{() => status = 'intro ended'}" on:outroend="{() => status = 'outro ended'}">
+      <p>
         professional <span style="color:#b6abff;">zestfest</span>
       </p>
-      <img src="https://discord.c99.nl/widget/theme-4/320002284186763264.png" class="discord-thingy" transition:fly="{{ y: 1000, duration: 2500 }}" on:introstart="{() => status = 'intro started'}" on:outrostart="{() => status = 'outro started'}" on:introend="{() => status = 'intro ended'}" on:outroend="{() => status = 'outro ended'}" />  
+      <img src="https://discord.c99.nl/widget/theme-4/320002284186763264.png" class="discord-thingy" />  
     </div>
   </main>
 {/if}
